@@ -95,6 +95,7 @@ body {
 .services {
   background: #e8f5ff;
   padding: 2rem 1rem;
+  text-align: center;
 }
 
 .services .service-grid {
@@ -117,7 +118,37 @@ body {
   margin-bottom: 0.5rem;
 }
 
+/* Team Section */
+.team .container{
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.team .team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.team .team-card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.team .team-card h3 {
+  font-size: 1.5rem;
+  color: #1a1a2e;
+  margin-bottom: 0.5rem;
+}
+
 /* Contact Form */
+.contact {
+  text-align: center;
+}
+
 .contact form {
   display: flex;
   flex-direction: column;
